@@ -1,6 +1,6 @@
 #ifndef EDITOR_H
 #define EDITOR_H
-#include "header.h"
+#include "document.h"
 
 class GraphicEditor
 {

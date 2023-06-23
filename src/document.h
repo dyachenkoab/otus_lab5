@@ -1,6 +1,6 @@
-#pragma once
+#ifndef DOCUMENT_H
+#define DOCUMENT_H
 #include <memory>
-#include <set>
 #include <algorithm>
 
 #include "elements.h"
@@ -49,5 +49,6 @@ public:
 
 private:
     std::vector<std::unique_ptr<GraphicElement>> elements;
-    std::set<std::unique_ptr<GraphicElement>> elementsSet;
 };
+
+#endif // DOCUMENT_H
